@@ -11,3 +11,23 @@ data/videos/*
 !data/videos/.gitkeep
 
 *.pt
+
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# YOLO model weights and exports
+*.pt
+*.onnx
+*.engine
+
+# Generated results
+runs/
+
+# Local datasets
+data/images/
+data/videos/
+
+# Environment variables
+.env

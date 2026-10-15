@@ -31,3 +31,9 @@ data/videos/
 
 # Environment variables
 .env
+
+# Local datasets and test media
+data/
+
+# Generated outputs
+runs/

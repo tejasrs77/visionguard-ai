@@ -1,39 +1,39 @@
+
+# Python virtual environments
 .venv/
+venv/
+env/
+
+# Python cache and compiled files
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
 
-outputs/
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
 
-data/images/*
-data/videos/*
-
-!data/images/.gitkeep
-!data/videos/.gitkeep
-
-*.pt
-
-# Python environment
-.venv/
-__pycache__/
-*.pyc
-
-# YOLO model weights and exports
+# Model weights and exported models
 *.pt
 *.onnx
 *.engine
 
-# Generated results
-runs/
-
-# Local datasets
-data/images/
-data/videos/
-
-# Environment variables
-.env
-
-# Local datasets and test media
+# Local datasets and generated media
 data/
-
-# Generated outputs
+outputs/
 runs/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
